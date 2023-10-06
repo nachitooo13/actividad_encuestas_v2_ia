@@ -1,0 +1,95 @@
+[
+    {
+      "id": 1,
+      "titulo": "Encuesta de Satisfacción de Restaurantes",
+      "descripcion": "Ayúdanos a mejorar nuestros restaurantes respondiendo a estas preguntas.",
+      "preguntas": [
+        {
+          "id": 1,
+          "pregunta": "¿Qué tipo de comida prefieres en nuestros restaurantes?",
+          "opciones": [
+            { "id": 1, "texto": "Comida italiana" },
+            { "id": 2, "texto": "Comida mexicana" },
+            { "id": 3, "texto": "Comida asiática" },
+            { "id": 4, "texto": "Comida vegetariana" },
+            { "id": 5, "texto": "Otro" }
+          ]
+        },
+        {
+          "id": 2,
+          "pregunta": "¿Con qué frecuencia visitas nuestros restaurantes?",
+          "opciones": [
+            { "id": 1, "texto": "Una vez a la semana" },
+            { "id": 2, "texto": "Dos veces al mes" },
+            { "id": 3, "texto": "Una vez al mes" },
+            { "id": 4, "texto": "Raramente" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Encuesta de Opinión sobre Películas",
+      "descripcion": "Queremos saber qué género de películas te gusta más.",
+      "preguntas": [
+        {
+          "id": 1,
+          "pregunta": "¿Cuál es tu género de película favorito?",
+          "opciones": [
+            { "id": 1, "texto": "Acción" },
+            { "id": 2, "texto": "Comedia" },
+            { "id": 3, "texto": "Drama" },
+            { "id": 4, "texto": "Ciencia ficción" },
+            { "id": 5, "texto": "Romance" },
+            { "id": 6, "texto": "Terror" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Encuesta de Hábitos de Ejercicio",
+      "descripcion": "Ayúdanos a entender tus hábitos de ejercicio y salud.",
+      "preguntas": [
+        {
+          "id": 1,
+          "pregunta": "¿Con qué frecuencia haces ejercicio?",
+          "opciones": [
+            { "id": 1, "texto": "Todos los días" },
+            { "id": 2, "texto": "3-5 veces a la semana" },
+            { "id": 3, "texto": "1-2 veces a la semana" },
+            { "id": 4, "texto": "Casi nunca" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Encuesta de Viajes y Destinos",
+      "descripcion": "Cuéntanos sobre tus destinos de viaje favoritos.",
+      "preguntas": [
+        {
+          "id": 1,
+          "pregunta": "¿Cuál ha sido tu destino de viaje favorito hasta ahora?",
+          "opciones": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Encuesta de Experiencia en Compras en Línea",
+      "descripcion": "Ayúdanos a mejorar tu experiencia de compra en línea.",
+      "preguntas": [
+        {
+          "id": 1,
+          "pregunta": "¿Con qué frecuencia compras en línea?",
+          "opciones": [
+            { "id": 1, "texto": "Siempre" },
+            { "id": 2, "texto": "A veces" },
+            { "id": 3, "texto": "Casi nunca" }
+          ]
+        }
+      ]
+    }
+  ]
+  

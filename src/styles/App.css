@@ -1,0 +1,127 @@
+/* Estilos para el menú de navegación */
+nav {
+  background-color: #a9d3ff;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(2, 13, 112); /* Corrige el error de color */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Estilos para los formularios */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el listado de encuestas */
+.encuesta-item-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: transform 0.3s;
+  margin: 10px 0;
+}
+
+.encuesta-item-container:hover {
+  transform: translateY(-5px);
+}
+
+.encuesta-item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.encuesta-item p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Estilos generales */
+h1 {
+  text-align: center;
+}
+
+/* Estilos para los botones */
+button {
+  margin-right: 10px;
+}
+
+/* Estilo para el botón deshabilitado */
+.button-disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* Estilos para el botón "Volver" */
+.volver {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+
